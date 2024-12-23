@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fuzzy Arithmetic Operations</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="setBInputs"></div>
+      <div id="setCInputs"></div>
+      <button onclick="addElementToSets()">Add Elements to Sets</button>
+
+      <div>
+        <h3>Set B Elements:</h3>
+        <ul id="setBList"></ul>
+      </div>
+
+      <div>
+        <h3>Set C Elements:</h3>
+        <ul id="setCList"></ul>
+      </div>
+
+      <div>
+        <button onclick="calculateAddition()">Addition (+)</button>
+        <button onclick="calculateSubtraction()">Subtraction (-)</button>
+        <button onclick="calculateMultiplication()">Multiplication (×)</button>
+        <button onclick="calculateDivision()">Division (÷)</button>
+      </div>
+
+      <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
